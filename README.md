@@ -2,10 +2,6 @@
 
 Quick and easy recording
 
-[![NPM version][npm-image]][npm-url]
-
-[npm-url]: https://github.com/guozishu/mango-logger.git
-
 ---
 
 ## Install

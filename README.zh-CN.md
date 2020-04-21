@@ -2,11 +2,6 @@
 
 快速方便记录日志
 
-
-[![NPM version][npm-image]][npm-url]
-
-[npm-url]: https://github.com/guozishu/mango-logger.git
-
 ---
 
 ## Install
