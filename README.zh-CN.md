@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-$ npm i mango-logger
+$ npm i -D mango-logger
 ```
 
 ## Usage
