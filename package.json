@@ -1,0 +1,30 @@
+{
+  "name": "mango-logger",
+  "version": "1.0.1",
+  "description": "异步日志中间件",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guozishu/mango-logger.git"
+  },
+  "keywords": [
+    "mango-logger"
+  ],
+  "author": "guozishu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guozishu/mango-logger/issues"
+  },
+  "homepage": "https://github.com/guozishu/mango-logger#readme",
+  "devDependencies": {
+    "chalk": "^4.0.0",
+    "eslint": "^6.8.0",
+    "koa": "^2.11.0",
+    "mkdirp": "^1.0.4",
+    "utility": "^1.16.3"
+  }
+}
