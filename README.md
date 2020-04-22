@@ -7,7 +7,7 @@ Quick and easy recording
 ## Install
 
 ```bash
-$ npm i -D mango-logger
+$ npm i -D guozishu-mango-logger
 ```
 
 ## Usage

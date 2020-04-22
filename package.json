@@ -1,5 +1,5 @@
 {
-  "name": "mango-logger",
+  "name": "guozishu-mango-logger",
   "version": "1.0.1",
   "description": "异步日志中间件",
   "main": "index.js",
