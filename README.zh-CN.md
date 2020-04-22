@@ -15,7 +15,7 @@ $ npm i -D guozishu-mango-logger
 创建一个 Logger
 
 ```js
-const Logger = require('mango-logger');
+const Logger = require('guozishu-mango-logger');
 let logger = new Logger({
     dir: path.resolve(path.dirname('../')),
     file: `${utility.YYYYMMDD()}.log`
