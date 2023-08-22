@@ -1,6 +1,6 @@
 {
   "name": "kiwi-logger",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "日志中间件",
   "main": "index.js",
   "scripts": {
