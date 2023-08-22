@@ -1,8 +1,8 @@
 const path = require('path');
 const utility = require('utility');
-const MangoLogger = require('./lib/logger');
+const KiwiLogger = require('./lib/logger');
 
-class Logger extends MangoLogger {
+class Logger extends KiwiLogger {
     constructor(options) {
         super(options);
         if (!options.file || !options.dir) {

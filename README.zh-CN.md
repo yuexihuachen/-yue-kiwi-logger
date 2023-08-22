@@ -1,13 +1,13 @@
-# mango-logger
+# kiwi-logger
 
-快速方便记录日志
+日志
 
 ---
 
 ## Install
 
 ```bash
-$ npm i -D guozishu-mango-logger
+$ npm i -D kiwi-logger
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ npm i -D guozishu-mango-logger
 创建一个 Logger
 
 ```js
-const Logger = require('guozishu-mango-logger');
+const Logger = require('kiwi-logger');
 let logger = new Logger({
     dir: path.resolve(path.dirname('../')),
     file: `${utility.YYYYMMDD()}.log`
