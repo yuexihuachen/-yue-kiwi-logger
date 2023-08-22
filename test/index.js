@@ -12,13 +12,13 @@ const app = new Koa();
  */
 app.use(async (ctx, next) => {
   let logger = new Logger({
-    dir: path.resolve(path.dirname('../')),
+    dir: path.resolve(path.dirname('../'),"log"),
     file: `${utility.YYYYMMDD()}.log`
   });
   ctx.logger=logger;
   ctx.body='logger';
   ctx.logger.error('error msg');
-  ctx.logger.info('info msg');
+  ctx.logger.info("This operation has been blocked as a potential Cross-Site Request Forgery (CSRF). Please either specify a 'content-type' header (with a type that is not one of application/x-www-form-urlencoded, multipart/form-data, text/plain) or provide a non-empty value for one of the following headers: x-apollo-operation-name, apollo-require-preflight\n");
   ctx.logger.warn('warn msg');
   ctx.logger.debug('debug msg');
   await next();
