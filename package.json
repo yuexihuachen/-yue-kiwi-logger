@@ -1,5 +1,5 @@
 {
-  "name": "@yue/kiwi-logger",
+  "name": "@guozishu/kiwi-logger",
   "version": "1.0.0",
   "description": "日志中间件",
   "main": "index.js",

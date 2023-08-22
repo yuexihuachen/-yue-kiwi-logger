@@ -1,4 +1,4 @@
-# @yue/kiwi-logger
+# @guozishu/kiwi-logger
 
 Quick and easy recording
 
@@ -7,7 +7,7 @@ Quick and easy recording
 ## Install
 
 ```bash
-$ npm i -D @yue/kiwi-logger
+$ npm i -D @guozishu/kiwi-logger
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ npm i -D @yue/kiwi-logger
 创建一个 Logger
 
 ```js
-const Logger = require('@yue/kiwi-logger');
+const Logger = require('@guozishu/kiwi-logger');
 let logger = new Logger({
     dir: path.resolve(path.dirname('../')),
     file: `${utility.YYYYMMDD()}.log`
